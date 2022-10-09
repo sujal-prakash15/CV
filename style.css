@@ -1,0 +1,54 @@
+
+.stable tr:hover{
+    background-color: #bff9ff;
+}
+.table1{
+    width:80%;
+    border:2px solid rgb(0, 0, 0);
+    border-collapse:collapse;
+    border-style: solid;
+}
+.table1 td{
+    border:2px solid rgb(0, 0, 0);
+    border-collapse:collapse;
+    border-style: solid;
+}
+.table1 th{
+    border:2px solid rgb(0, 0, 0);
+    background-color:#00b8cb;
+    text-align: center;
+}
+.table2{
+    width:40%;
+    border:2px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+}
+.table2 td{
+    border:2px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+}
+.table2 th{
+    border:2px solid black;
+    border-collapse:collapse;
+    border-style:solid
+}
+.but{
+    margin-left: 50px;
+    /* margin-bottom: 20px; */
+    border-radius:15px;
+    background-color:#bff9ff;
+    color: black;
+    border:2px solid black;
+}
+.but:hover{
+    background-color: #00b8cb;
+}
+.image{
+    width:150px;
+    height:150px;
+}
+.tabimg td{
+    padding:10px;
+}

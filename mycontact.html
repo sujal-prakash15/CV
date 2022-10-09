@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+</head>
+<body>
+        <form>
+        <fieldset style="display:inline">
+        <label><strong>CONTACT DETAILS</strong></label><br><br>
+        <strong>gmail-</strong>
+        <a href="mailto:sujalprakash64@gmail.com" target="_blank">sujalprakash64@gmail.com</a>
+        <p><strong>phone no-</strong>9967732414</p>
+        </fieldset>
+        </form> 
+    <hr size="3" noshade>
+    <h2><u>Contact me</u></h2>
+    <p><strong>Fill up the below form and submit it to connect to me.</strong></p>
+    <form action="mailto:sujalprakash@gmail.com" target="_blank" autocomplete="on" method="post" enctype="text/plain">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" size="20" required autofocus><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lnmae" size="20" required><br><br>
+        <label for="age">enter your age:</label>
+        <input type="number" id="age" name="age" min="15" value="15"><br><br>
+        <label for="birth">Date of birth:</label>
+        <input type="date" id="birth" name="birth" min="1890-01-01" required><br><br>
+        <label for="email">email id:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">phone no:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123456789" required><br><br>
+        <fieldset style="display: inline;">
+        <legend>Choose your skills:</legend>
+        <input type="checkbox" id="opt1" name="skills">
+        <label for="opt1">Web development</label><br>
+        <input type="checkbox" id="opt2" name="skills">
+        <label for="opt2">Competitive programming</label><br>
+        <input type="checkbox" id="opt3" name="skills">
+        <label for="opt3">Machine learning</label><br>
+        <input type="checkbox" id="opt4" name="skills">
+        <label for="opt4">App development</label><br><br>
+        </fieldset><br><br>
+        <label for="how">how did you know abut this website?:</label>
+        <select id="how" name="how">
+            <option value="friends" selected>Friends</option>
+            <option value="pampletes">Pampletes</option>
+            <option value="advertisement">Advertisements</option>
+            <option value="by me">By Me</option>
+            <option value="word of mouth">word of mouth</option>
+            <option value="others">others</option>
+        </select><br><br>
+        <label for="files">upload relevant files:</label>
+        <input type="file" id="files" name="files" multiple><br><br>
+        <p>tell me about yourself:</p>
+        <textarea name="message" style="height: 200px;width: 300px;"></textarea><br><br>
+        <input type="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
